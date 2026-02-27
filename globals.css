@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-stone-50 text-slate-900 antialiased;
+}
+
+/* 统一的玻璃拟态卡片，用于中间操作区 */
+.glass-panel {
+  @apply bg-white/60 border border-white/70 backdrop-blur-md;
+}
