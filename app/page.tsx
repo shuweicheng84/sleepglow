@@ -336,8 +336,12 @@ export default function SleepGlowPage() {
               <div className="space-y-10">
                 <div className="space-y-5">
                   <p className="text-xs tracking-[0.3em] uppercase text-stone-400">SleepGlow</p>
-                  <h1 className="text-4xl md:text-5xl font-light tracking-wide text-stone-800">见微 · <span className="text-stone-600">看见眼周细小、温柔的变化</span></h1>
-                  <p className="text-sm md:text-base leading-relaxed text-stone-500 max-w-xl">每天早上花半分钟，借助本地运行的模型，轻轻记录眼下区域亮度的微小波动。</p>
+                  <h1 className="text-4xl md:text-[2.8rem] font-light tracking-wide text-stone-800">
+                  见微 · <span className="text-stone-600 whitespace-nowrap">看见眼周细小、温柔的变化</span>
+                  </h1>
+                  <p className="text-sm md:text-base leading-relaxed text-stone-500 max-w-2xl mt-4">
+                  每天早上花半分钟，借助本地运行的模型，轻轻记录眼下区域亮度的微小波动。
+                  </p>
                 </div>
                 <div className="rounded-2xl border border-stone-200/60 bg-white/40 px-5 py-4 text-xs text-stone-500 flex flex-col gap-2">
                   <p className="font-medium text-stone-700">隐私承诺 · 纯本地运算</p>
