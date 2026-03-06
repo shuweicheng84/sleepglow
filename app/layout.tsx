@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "见微 · SleepGlow",
   description:
-    "在每天清晨的一瞬，轻盈地感知自己眼周的元气微光，全部计算都只存在于你的设备中。"
+    "在每天清晨的一瞬，轻盈地感知眼周的元气微光。全部计算都只存在于你的设备中。"
 };
 
 export default function RootLayout({
